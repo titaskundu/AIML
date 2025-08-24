@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+# Specific to Conda environments
+.conda/
+conda-env/
+
+# IDE-specific files
+.idea/  # IntelliJ IDEA / PyCharm
+.vscode/ # VS Code
+*.iml   # IntelliJ IDEA
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Data files (large datasets, processed data, temporary files)
+data/
+processed_data/
+temp/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.bin
+*.model
+*.pb
+*.h5
+*.ckpt
+*.tfevents/ # TensorFlow logs
+
+# Model checkpoints and artifacts
+checkpoints/
+models/
+artifacts/
+runs/ # e.g., MLflow, TensorBoard logs
+
+# Environment variables and sensitive information
+.env
+*.env
+config.ini
+secrets.py
+credentials.json
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
+*.out
+*.err
